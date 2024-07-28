@@ -1,0 +1,10 @@
+SELECT
+	NAME,
+	AGE
+FROM
+	PERSON
+WHERE
+	GENDER = 'female'
+	AND ADDRESS = 'Kazan'
+ORDER BY 
+    name ASC;

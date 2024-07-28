@@ -1,0 +1,9 @@
+SELECT
+	*
+FROM
+	PERSON_ORDER
+WHERE
+	ID % 2 = 0
+	-- % остаток
+ORDER BY
+	ID ASC;
